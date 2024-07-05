@@ -30,7 +30,7 @@
 
   <body>
     <section class="container-fluid" style="background-color: #ff4c68">
-      <section class="w-75 mx-auto">
+      <section class="container">
         <nav class="navbar navbar-expand-lg navbar-light pt-4">
           <div class="container-fluid">
             <a class="navbar-brand fs-1 fw-bold text-light" href="#">TinDog</a>
@@ -53,8 +53,8 @@
                     style="color: rgba(255, 255, 255, 0.5)"
                     aria-current="page"
                     href="#"
-                    >Contact
-                  </a>
+                    >Contact</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a
@@ -78,9 +78,11 @@
         </nav>
       </section>
 
-      <section class="d-flex justify-content-evenly ms-3">
-        <div class="info mt-4">
-          <h1 class="display-4 fw-bold" style="color: white; line-height: 1.5">
+      <section
+        class="container d-flex flex-column flex-lg-row justify-content-between align-items-center mt-4"
+      >
+        <div class="info text-center text-lg-start">
+          <h1 class="display-4 fw-bold text-white" style="line-height: 1.5">
             Meet new and<br />interesting<br />dogs nearby.
           </h1>
           <div class="btn mt-4">
@@ -92,13 +94,12 @@
               class="btn btn-transparent btn-lg ms-3"
               style="border-color: #f8f9fa; color: white"
             >
-              <i class="bi bi-google-play"></i>
-              Download
+              <i class="bi bi-google-play"></i>Download
             </button>
           </div>
         </div>
 
-        <div class="img mt-5">
+        <div class="img mt-5 text-center text-lg-end">
           <img
             class="w-75"
             style="transform: rotate(22deg)"
